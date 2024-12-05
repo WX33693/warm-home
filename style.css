@@ -1,0 +1,190 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    color: #2c3e50;
+}
+
+h1, h2 {
+    color: #e67e22;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #e67e22;
+}
+
+/* قسم الهيرو */
+.hero {
+    background: url('1.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.hero .overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero button {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero button:hover {
+    background: #d35400;
+}
+
+/* شبكة البطاقات */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px;
+    color: #2c3e50;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+/* قسم الرؤية والأهداف */
+#vision-goals {
+    background: #f8f8f8;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-top: 2px solid #e67e22;
+}
+
+#vision-goals .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#vision-goals h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#vision-goals h3 {
+    font-size: 1.5rem;
+    color: #e67e22;
+    margin-top: 20px;
+}
+
+#vision-goals ul {
+    list-style: none;
+    padding: 0;
+}
+
+#vision-goals ul li {
+    font-size: 1rem;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+/* تنسيق قسم فريق العمل */
+#team-info {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid #e67e22;
+}
+
+#team-info .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#team-info h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#team-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+#team-info ul li {
+    margin: 10px 0;
+}
+
+#team-info ul li strong {
+    color: #e67e22; /* اللون البرتقالي للوظائف */
+}
